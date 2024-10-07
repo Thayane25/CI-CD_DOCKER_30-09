@@ -1,0 +1,11 @@
+docker build container-hello:latest .
+
+docker tag container-hello:latest thayane25/container-hello:latest
+
+docker logout
+
+docker login
+
+docker push thayane25/container-hello:latest
+
+docker run thayane25/container-hello
