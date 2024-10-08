@@ -9,3 +9,5 @@ docker login
 docker push thayane25/container-hello:latest
 
 docker run thayane25/container-hello
+
+docker-compose up -d 
